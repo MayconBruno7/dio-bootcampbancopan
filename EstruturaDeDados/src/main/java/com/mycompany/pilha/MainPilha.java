@@ -4,6 +4,8 @@
  */
 package com.mycompany.pilha;
 
+import java.util.Stack;
+
 /**
  *
  * @author maycon-linux
@@ -26,5 +28,18 @@ public class MainPilha {
         System.out.println(minhaPilha.pop());
         minhaPilha.push(new No(99));
         System.out.println(minhaPilha);
+        
+        Stack<Carro> stackCarros = new Stack<>();
+        
+        stackCarros.push(new Carro("Ford"));
+        stackCarros.push(new Carro("Chevrolet"));
+        stackCarros.push(new Carro("Fiat"));
+        
+        System.out.println(stackCarros);
+        System.out.println(stackCarros.pop());
+        System.out.println(stackCarros);
+        System.out.println(stackCarros.peek());
+        System.out.println(stackCarros);
+        System.out.println(stackCarros.empty());
     }
 }
