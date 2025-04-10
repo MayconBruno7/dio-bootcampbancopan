@@ -1,0 +1,6 @@
+com/mycompany/exceptionpersonalizada/ExceptionPersonalizada.class
+com/mycompany/checkedexception/CheckedException.class
+com/mycompany/exceptionpersonalizada/DivisaoNaoExataException.class
+com/mycompany/uncheckedexception/UncheckedException.class
+com/mycompany/exceptionpersonalizada/ExceptionPersonalizada1.class
+com/mycompany/exceptionpersonalizada/ImpossivelAberturaDeArquivoException.class
